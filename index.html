@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AROEC Nord Pas de Calais</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>AROEC Nord Pas de Calais</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#vie">Vie de l’association</a></li>
+          <li><a href="#activites">Activités</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="mentions.html">Mentions légales</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="slider">
+    <div class="slides">
+      <img src="images/banner.jpg" alt="Bannière">
+      <img src="images/activites1.jpg" alt="Voyage">
+      <img src="images/activites2.jpg" alt="Musée">
+    </div>
+  </section>
+
+  <main>
+    <section id="vie" class="animated-section">
+      <h2>Vie de l’association</h2>
+      <p>Réunions, échanges, et projets solidaires entre experts-comptables retraités.</p>
+    </section>
+
+    <section id="activites" class="animated-section">
+      <h2>Activités proposées</h2>
+      <ul>
+        <li>Voyages culturels</li>
+        <li>Visites guidées</li>
+        <li>Repas conviviaux</li>
+      </ul>
+      <button class="btn" id="openPopup">Adhérer</button>
+    </section>
+
+    <section id="galerie" class="animated-section">
+      <h2>Galerie photo</h2>
+      <img src="images/galerie.jpg" alt="Galerie AROEC" class="gallery-img">
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 AROEC Nord Pas de Calais</p>
+  </footer>
+
+  <!-- Popup Adhésion -->
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <span class="close" id="closePopup">&times;</span>
+      <h3>Adhérez à l’AROEC</h3>
+      <p>Remplissez le formulaire d’adhésion sur la page Contact.</p>
+      <a href="contact.html" class="btn">Aller au formulaire</a>
+    </div>
+  </div>
+</body>
+</html>
